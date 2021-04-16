@@ -14,6 +14,7 @@ const Container = styled.div`
     border-color: ${pr => pr.theme.outlineColor};
     width:40%;
     background-color:${pr => pr.theme.primaryColor};
+    margin-bottom:1%;
 
     &:hover {
         background-color: ${pr => pr.theme.hoverBackground};
