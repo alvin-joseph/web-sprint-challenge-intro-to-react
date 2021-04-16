@@ -7,10 +7,21 @@
 
 .App img {
   height:30vh;
+  transition: all 1s ease-in-out;
+}
+
+img:hover {
+  transform: rotate(2deg);
+  transition: all 1s ease;
 }
 
 .Header {
-  color: #443e3e;
-  text-shadow: 1px 1px 5px #fff;
+  color: black;
+  text-shadow: 1px 1px 5px yellow;
 }
 /* write your parent styles in here for your App.js */
+h1 {
+  /* font-family: 'Train One', cursive; */
+  font-family: 'Black Ops One', cursive;
+  font-size: 3rem;
+}

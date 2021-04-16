@@ -16,7 +16,7 @@ const App = () => {
 
   useEffect(() => {
     axios
-    .get(`https://swapi.dev/api/people/?search=v`)
+    .get("https://swapi.dev/api/people/")
     .then(res => {
       //console.log(res.data);
       setCharacters(res.data);
