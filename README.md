@@ -32,11 +32,19 @@ Be prepared to demonstrate your understanding of this week's concepts by answeri
 
 1. What is React JS and what problems does it solve? Support your answer with concepts introduced in class and from your personal research on the web.
 
+React is one of the most commonly used libraries for building applications. If an app has alot of data that changes over time at high rates then there is a requirement for DOM updates to be fast and also reflect in other parts of the UI if they use the same data. React allows for a fast DOM update by using a virtual DOM which interacts with the actual DOM for us. We tell the virtual DOM which elements and state to render to the actual DOM, and it will do it. If the state data changes, react will update the DOM accordingly on its own. React provides a smooth experience for users and even developers. 
+
 1. Describe component state.
+
+It is a plain JavaScript object. It holds information that influences the output of render. It is managed within the component which is similar to variables declared within a function. 
 
 1. Describe props.
 
+It is also a plain JavaScript object. It also holds information that influences the output of render. The difference is props gets passed to the component similar to function parameters. 
+
 1. What are side effects, and how do you sync effects in a React component to changes of certain state or props?
+
+They are anything that affects something outside the scope of the function being executed. Some examples include fetching data from the API, timers, logging, and manually manipulating the DOM. We do this by passing in a dependency array as the second argument to the effect hook.
 
 You are expected to be able to answer questions in these areas. Your responses contribute to your Sprint Challenge grade.
 

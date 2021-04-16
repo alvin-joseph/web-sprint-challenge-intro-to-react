@@ -12,7 +12,6 @@
 
 img:hover {
   transform: rotate(2deg);
-  transition: all 1s ease;
 }
 
 .Header {
